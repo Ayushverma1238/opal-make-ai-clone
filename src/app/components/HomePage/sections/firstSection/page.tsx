@@ -59,7 +59,7 @@ const FirstSection = () => {
             muted
             playsInline
           >
-            <source src="./Homepage-hero-video.webm" type="video/webm" />
+            <source src="/Homepage-hero-video.webm" type="video/webm" />
           </video>
         </div>
       </div>

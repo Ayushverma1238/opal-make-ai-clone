@@ -39,7 +39,7 @@ const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   return (
     <div className="flex sticky top-0 z-10 justify-between px-6 items-center bg-linear-to-r from-[#220041] to-purple-950">
       
-      <img src="./logo.png" alt="logo" width={105} height={35} />
+      <img src="/logo.png" alt="logo" width={105} height={35} />
 
       <div className="flex gap-10 text-white">
         
