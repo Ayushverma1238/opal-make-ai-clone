@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Check } from "lucide-react";
+import Image from "next/image";
 const FirstSection = () => {
   const logos = [
     "/logos/Bamboo_HR_logo__1_.png",
@@ -68,7 +69,7 @@ const FirstSection = () => {
       <div className="overflow-hidden w-[85%] mx-auto pt-10">
         <div className="flex w-max animate-scroll gap-16">
           {[...logos, ...logos].map((logo, i) => (
-            <img
+            <Image
               key={i}
               src={logo}
               className="h-12 object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition duration-300"

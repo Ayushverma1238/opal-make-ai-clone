@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { FaPlus } from "react-icons/fa6";
 import { appDataUrl } from "@/app/utils/appData";
+import Image from "next/image";
 
 type Data = {
   imageUrl: string;
@@ -114,7 +115,7 @@ const PublicTemplates = () => {
                       } h-12 w-12 rounded-full`}
                       style={{ backgroundColor: app.theme }}
                     >
-                      <img
+                      <Image
                         className="h-8 w-8 rounded-full object-contain"
                         src={app.imageUrl}
                         alt={app.name}
@@ -125,7 +126,7 @@ const PublicTemplates = () => {
               </div>
 
               {/* Hover Image */}
-              <img
+              <Image
                 className="h-0 group-hover:h-30   object-contain rounded-lg absolute opacity-0 
                    group-hover:opacity-100 group-hover:translate-y-0
                    transition-all duration-300 ease-in-out"

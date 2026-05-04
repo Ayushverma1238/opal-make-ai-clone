@@ -2,6 +2,7 @@
 
 import { Plan, Subscription, Usage } from "@/app/types/subscription";
 import { ArrowUpRight, ExternalLink, MoveUpRight, Share2 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CiCircleQuestion } from "react-icons/ci";
@@ -234,7 +235,7 @@ const DashboardPage = () => {
             href="#"
             className="text-purple-600 flex items-center gap-3 text-sm font-semibold"
           >
-            <img
+            <Image
               className="w-5 h-5"
               src="https://media.candulabs.com/1908/rocket_1770745659721.png"
               alt=""
@@ -245,7 +246,7 @@ const DashboardPage = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 py-5 gap-4">
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
               alt="agents"
@@ -253,7 +254,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">Make AI Agents</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/make-ai-tools_1749479699962.png"
               alt="agents"
@@ -261,7 +262,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">Make AI Tools</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/openai.png"
               alt="agents"
@@ -269,7 +270,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">OpenAI</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/google-gemini-ai_1740992335355.png"
               alt="agents"
@@ -277,7 +278,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">Google Gemini AI</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/perplexity.png"
               alt="agents"
@@ -285,7 +286,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">Perplexity</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/sheets.png"
               alt="agents"
@@ -293,7 +294,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">Google Sheets</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/slack.png"
               alt="agents"
@@ -301,7 +302,7 @@ const DashboardPage = () => {
             <h1 className="text-medium ">Slack</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
-            <img
+            <Image
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/gmail.png"
               alt="agents"
@@ -324,17 +325,17 @@ const DashboardPage = () => {
           <div className="w-45 border h-55 relative p-3 rounded-lg border-gray-200">
             {/* Avatar group */}
             <div className="flex items-center">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://media.candulabs.com/1908/gmail.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/frame-11_1770726186478.png"
                 alt=""
@@ -358,17 +359,17 @@ const DashboardPage = () => {
           <div className="w-45 border h-55 relative p-3 rounded-lg border-gray-200">
             {/* Avatar group */}
             <div className="flex items-center">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://media.candulabs.com/1908/youtube.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/airtable_1770714876780.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                 alt=""
@@ -392,17 +393,17 @@ const DashboardPage = () => {
           <div className="w-45 border h-55 relative p-3 rounded-lg border-gray-200">
             {/* Avatar group */}
             <div className="flex items-center">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/slack.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/sheets.png"
                 alt=""
@@ -423,17 +424,17 @@ const DashboardPage = () => {
           <div className="w-45 border h-55 relative p-3 rounded-lg border-gray-200">
             {/* Avatar group */}
             <div className="flex items-center">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/frame-1_1770719571910.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/frame-1_1770719571910.png"
                 alt=""
               />
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/airtable_1770714876780.png"
                 alt=""
@@ -483,7 +484,7 @@ const DashboardPage = () => {
             >
               {/* Star */}
               <div className="w-10 h-10 bg-transparent rounded-full flex items-center justify-center">
-                <img
+                <Image
                   className="text-purple-600"
                   src="https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                   alt=""

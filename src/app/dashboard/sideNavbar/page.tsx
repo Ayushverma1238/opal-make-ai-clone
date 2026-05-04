@@ -17,6 +17,7 @@ import { TbWorld } from "react-icons/tb";
 import { IoExtensionPuzzleOutline } from "react-icons/io5";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const ALL_ITEMS = [
   { icon: <Share2 className="h-5 w-5" />, title: "Scenarios" },
@@ -120,7 +121,7 @@ const SideNavbar = () => {
         className="flex flex-row sm:flex-col items-center shrink-0"
       >
         <div className="flex flex-row sm:flex-col items-center pt-3 gap-4">
-          <img
+          <Image
             className="w-10 h-10 sm:w-12 sm:h-12"
             src="/dashlogo.png"
             alt="logo"

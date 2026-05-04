@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 type appDatatype = {
   appLogo: string;
@@ -40,7 +41,7 @@ const ExamplePage = () => {
               className="flex items-center group hover:bg-purple-50 cursor-pointer flex-col sm:flex-row justify-between"
             >
               <div className="flex gap-4 items-center">
-                <img
+                <Image
                   className="h-8 w-8 rounded-full object-contain"
                   style={{ backgroundColor: data.theme }}
                   src={data.appLogo}

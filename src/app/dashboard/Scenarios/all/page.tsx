@@ -1,6 +1,7 @@
 "use client";
 
 import dayjs from "dayjs";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { BsCheckLg, BsLightning, BsThreeDotsVertical } from "react-icons/bs";
 import { CiMail, CiSearch } from "react-icons/ci";
@@ -299,7 +300,7 @@ const AllPageScenario = () => {
                           } h-12 w-12 rounded-full`}
                           style={{ backgroundColor: app.theme }}
                         >
-                          <img
+                          <Image
                             className="h-8 w-8 rounded-full object-contain"
                             src={app.imageUrl}
                             alt={app.name}

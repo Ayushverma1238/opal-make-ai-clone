@@ -209,7 +209,7 @@ const SecondSection = () => {
       <div className="w-[85%] mx-auto my-20">
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="left w-full">
-            <img src="/activemenu/IT.png" alt="IT-image" />
+            <Image src="/activemenu/IT.png" alt="IT-image" />
           </div>
           <div className="right w-full flex flex-col items-start gap-5">
             <h1 className="text-3xl font-black text-gray-800">IT automation</h1>
@@ -301,7 +301,7 @@ const SecondSection = () => {
                 key={index}
                 className="card w-full flex bg-linear-to-br from-[#32134f] to-[#3f225a] hover:from-[#3f225a] flex-col justify-start h-full border  border-gray-200  rounded-2xl p-2 hover:shadow-md"
               >
-                <img
+                <Image
                   className="w-full rounded-2xl h-[30vh] object-cover"
                   src={story.image}
                   alt="success stories image"
@@ -358,13 +358,13 @@ const SecondSection = () => {
             </Link>
           </div>
           <div className="right w-[50%]">
-            <img src="/webpage/ai.webp" alt="sevent section" />
+            <Image src="/webpage/ai.webp" alt="sevent section" />
           </div>{" "}
         </div>
 
         <div className="flex flex-col-reverse lg:flex-row">
             <div className="right w-[50%]">
-            <img src="/webpage/2.webp" alt="sevent section" />
+            <Image src="/webpage/2.webp" alt="sevent section" />
           </div>{" "}
           <div className="left flex flex-col gap-5 w-[50%]">
             <p className="text-pink-600 text-lg">Enterprise</p>
@@ -407,7 +407,7 @@ const SecondSection = () => {
             </Link>
           </div>
           <div className="right w-[50%]">
-            <img src="/webpage/soc_type2.webp" alt="sevent section" />
+            <Image src="/webpage/soc_type2.webp" alt="sevent section" />
           </div>{" "}
         </div>
 
@@ -424,11 +424,11 @@ const SecondSection = () => {
             {reviewData.map((review, index) => (
             <div key={index} className="flex flex-col items-start  gap-4">
                 <div className="flex items-center gap-2">
-                    <img className='p-2 rounded-full hover:bg-gray-100' src={review.image} alt={review.name} />
+                    <Image className='p-2 rounded-full hover:bg-gray-100' src={review.image} alt={review.name} />
                     <h1 className="text-2xl text-gray-800">{review.name}</h1>
                 </div>
                 <div className="flex items-center gap-2">
-                    <img src="/star.webp" alt="Star" className="w-5 h-5" />
+                    <Image src="/star.webp" alt="Star" className="w-5 h-5" />
                     <span className='text-purple-500'>{review.rating}</span>
                     <span className="text-gray-500">({review.reviewCount} reviews)</span>
                 </div>

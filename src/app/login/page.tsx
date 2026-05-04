@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function LoginPage() {
   const { data: session, status } = useSession();
@@ -120,7 +121,7 @@ export default function LoginPage() {
 
       {/* RIGHT SIDE */}
       <div className="bg-[#220041] h-screen fixed top-0 right-0 w-[55%] flex flex-col items-end p-6">
-        <img src="/logo.png" className="w-60 h-35 object-contain" alt="logo" />
+        <Image src="/logo.png" className="w-60 h-35 object-contain" alt="logo" />
         <div className="text-left mt-10 space-y-4 max-w-150">
           <h1 className="text-6xl font-bold text-white">Design workflows</h1>
           <h1 className="text-6xl font-bold text-pink-500">#withOral</h1>
