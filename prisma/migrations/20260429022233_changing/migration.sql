@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Team" ADD COLUMN     "maxLimit" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "operations" INTEGER NOT NULL DEFAULT 0;

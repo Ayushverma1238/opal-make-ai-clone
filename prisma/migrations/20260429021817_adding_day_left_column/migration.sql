@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Subscription" ALTER COLUMN "updatedAt" SET DEFAULT CURRENT_TIMESTAMP;
+
+-- AlterTable
+ALTER TABLE "UsageStats" ADD COLUMN     "daysLeft" INTEGER NOT NULL DEFAULT 30;
