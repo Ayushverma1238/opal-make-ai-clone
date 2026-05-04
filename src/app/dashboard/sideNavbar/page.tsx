@@ -122,6 +122,8 @@ const SideNavbar = () => {
       >
         <div className="flex flex-row sm:flex-col items-center pt-3 gap-4">
           <Image
+            width={40}
+            height={40}
             className="w-10 h-10 sm:w-12 sm:h-12"
             src="/dashlogo.png"
             alt="logo"
@@ -195,7 +197,7 @@ const SideNavbar = () => {
                   return (
                     <Link
                       href={`/dashboard/${lastWord}`}
-                      onClick={()=> setOpenMore(false)}
+                      onClick={() => setOpenMore(false)}
                       key={item.title}
                       className={`flex ${isActive(`/dashboard/${lastWord}`) ? "px-3 py-2 rounded-lg text-purple-700 bg-purple-100 hover:bg-purple-200 font-semibold" : "text-purple-500"} items-center gap-3 hover:bg-purple-50 p-2.5 rounded-lg cursor-pointer group transition-colors`}
                     >

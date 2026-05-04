@@ -50,6 +50,8 @@ const CustomAppPage = () => {
               >
                 <div className="flex gap-4 items-center">
                   <Image
+                  height={32}
+                  width={32}
                     className="h-8 w-8 rounded-full object-contain"
                     style={{ backgroundColor: data.theme }}
                     src={data.appLogo}

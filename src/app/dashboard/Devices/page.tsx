@@ -20,6 +20,7 @@ const DataStorePage = () => {
 
         <div className="w-full bg-white border rounded-xl p-10 mt-10 flex flex-col gap-5 items-center border-gray-300">
           <Image
+          height={100}
             className="h-25 object-cover"
             src="https://cdn.candu.ai/cdn-cgi/image/width=170px,dpr=2/https://media.candulabs.com/1908/devices.png"
             alt="roundedimage"

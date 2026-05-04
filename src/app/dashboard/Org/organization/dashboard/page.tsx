@@ -237,6 +237,8 @@ const DashboardPage = () => {
           >
             <Image
               className="w-5 h-5"
+              width={20}
+              height={20}
               src="https://media.candulabs.com/1908/rocket_1770745659721.png"
               alt=""
             />{" "}
@@ -247,6 +249,8 @@ const DashboardPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 py-5 gap-4">
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
               alt="agents"
@@ -255,6 +259,8 @@ const DashboardPage = () => {
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/make-ai-tools_1749479699962.png"
               alt="agents"
@@ -263,6 +269,8 @@ const DashboardPage = () => {
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/openai.png"
               alt="agents"
@@ -271,14 +279,18 @@ const DashboardPage = () => {
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
-              src="https://media.candulabs.com/1908/google-gemini-ai_1740992335355.png"
+              src="https://media.candulabs.com/1908/google-gemini-ai_1724992335355.png"
               alt="agents"
             />
             <h1 className="text-medium ">Google Gemini AI</h1>
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/perplexity.png"
               alt="agents"
@@ -287,6 +299,8 @@ const DashboardPage = () => {
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/sheets.png"
               alt="agents"
@@ -295,6 +309,8 @@ const DashboardPage = () => {
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/slack.png"
               alt="agents"
@@ -303,6 +319,8 @@ const DashboardPage = () => {
           </div>
           <div className="flex gap-3 px-4 py-3 rounded-md ring ring-gray-200">
             <Image
+            width={24}
+            height={24}
               className="w-6 h-6"
               src="https://media.candulabs.com/1908/gmail.png"
               alt="agents"
@@ -326,16 +344,22 @@ const DashboardPage = () => {
             {/* Avatar group */}
             <div className="flex items-center">
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://media.candulabs.com/1908/gmail.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/frame-11_1770726186478.png"
                 alt=""
@@ -360,16 +384,22 @@ const DashboardPage = () => {
             {/* Avatar group */}
             <div className="flex items-center">
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://media.candulabs.com/1908/youtube.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/airtable_1770714876780.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                 alt=""
@@ -394,16 +424,22 @@ const DashboardPage = () => {
             {/* Avatar group */}
             <div className="flex items-center">
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/slack.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/sheets.png"
                 alt=""
@@ -425,16 +461,22 @@ const DashboardPage = () => {
             {/* Avatar group */}
             <div className="flex items-center">
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/frame-1_1770719571910.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/frame-1_1770719571910.png"
                 alt=""
               />
               <Image
+              width={40}
+              height={40}
                 className="h-10 w-10 rounded-full border-2 border-white -ml-3"
                 src="https://cdn.candu.ai/cdn-cgi/image/width=38px,dpr=2/https://media.candulabs.com/1908/airtable_1770714876780.png"
                 alt=""
@@ -485,6 +527,8 @@ const DashboardPage = () => {
               {/* Star */}
               <div className="w-10 h-10 bg-transparent rounded-full flex items-center justify-center">
                 <Image
+                width={40}
+                height={40}
                   className="text-purple-600"
                   src="https://media.candulabs.com/1908/local-agent-logo-256x256-1_1770712559927.png"
                   alt=""

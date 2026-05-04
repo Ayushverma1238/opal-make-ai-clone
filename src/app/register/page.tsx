@@ -194,7 +194,7 @@ export default function RegisterPage() {
 
       {/* RIGHT SIDE */}
       <div className="bg-[#220041] hidden h-screen fixed top-0 right-0 w-[55%] md:flex flex-col items-end p-6">
-        <Image src="/logo.png" className="w-60 h-35 object-contain" alt="logo" />
+        <Image height={140} width={240} src="/logo.png" className="w-60 h-35 object-contain" alt="logo" />
         <div className="text-left mt-10 space-y-4 max-w-150">
           <h1 className="text-6xl font-bold text-white">Bring Idea to Life</h1>
           <h1 className="text-6xl font-bold text-pink-500">#withOpal</h1>

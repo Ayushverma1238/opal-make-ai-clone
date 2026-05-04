@@ -50,7 +50,7 @@ const CredentialRequest = () => {
 
       {data.length === 0 ? (
         <div className="flex flex-col text-gray-400 text-center items-center ">
-           <Image className="h-18 object-cover w-27" src="/digitalInterface.png" alt="digital Interface" />
+           <Image height={72} width={108} className="h-18 object-cover w-27" src="/digitalInterface.png" alt="digital Interface" />
           <h3 className="font-semibold text-gray-700">No requests received</h3>
           <p>Credential requests sent to you will appear here.</p>
           <Link href="#" className="underline">Learn more</Link>

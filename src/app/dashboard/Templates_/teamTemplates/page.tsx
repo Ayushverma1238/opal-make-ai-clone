@@ -78,7 +78,7 @@ const page = () => {
       </div>
 
       <div className="flex justify-center flex-col gap-5 p-6 max-w-2xl mx-auto items-center bg-white border border-gray-300 rounded-lg">
-        <Image
+        <img
           className="sm:h-25 h-20 sm:w-100 w-80 "
           src="https://eu1.make.com/static/img/empty_state_suggest_upgrade.png"
           alt="stateSuggest"

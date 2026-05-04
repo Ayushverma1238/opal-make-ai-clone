@@ -428,7 +428,7 @@ const SecondSection = () => {
                     <h1 className="text-2xl text-gray-800">{review.name}</h1>
                 </div>
                 <div className="flex items-center gap-2">
-                    <Image src="/star.webp" alt="Star" className="w-5 h-5" />
+                    <Image width={20} height={20} src="/star.webp" alt="Star" className="w-5 h-5" />
                     <span className='text-purple-500'>{review.rating}</span>
                     <span className="text-gray-500">({review.reviewCount} reviews)</span>
                 </div>

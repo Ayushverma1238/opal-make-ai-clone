@@ -121,7 +121,7 @@ export default function LoginPage() {
 
       {/* RIGHT SIDE */}
       <div className="bg-[#220041] h-screen fixed top-0 right-0 w-[55%] flex flex-col items-end p-6">
-        <Image src="/logo.png" className="w-60 h-35 object-contain" alt="logo" />
+        <Image src="/logo.png" width={240} height={140} className="w-60 h-35 object-contain" alt="logo" />
         <div className="text-left mt-10 space-y-4 max-w-150">
           <h1 className="text-6xl font-bold text-white">Design workflows</h1>
           <h1 className="text-6xl font-bold text-pink-500">#withOral</h1>

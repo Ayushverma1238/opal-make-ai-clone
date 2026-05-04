@@ -72,6 +72,7 @@ const FirstSection = () => {
             <Image
               key={i}
               src={logo}
+              height={48}
               className="h-12 object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition duration-300"
               alt="logo"
             />

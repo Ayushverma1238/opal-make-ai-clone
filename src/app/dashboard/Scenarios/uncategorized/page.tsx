@@ -261,6 +261,8 @@ const AllPageScenario = () => {
                               style={{ backgroundColor: app.theme }}
                             >
                               <Image
+                              width={32}
+                          height={32}
                                 className="h-8 w-8 rounded-full object-contain"
                                 src={app.imageUrl}
                                 alt={app.name}
