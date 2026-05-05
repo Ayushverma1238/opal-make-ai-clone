@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
     domains: [
       "media.candulabs.com",
       "cdn.candu.ai"
+      
     ],
   },
 };
