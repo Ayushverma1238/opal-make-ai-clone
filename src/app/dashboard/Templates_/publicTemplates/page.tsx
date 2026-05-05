@@ -116,8 +116,8 @@ const PublicTemplates = () => {
                       style={{ backgroundColor: app.theme }}
                     >
                       <Image
-                      width={32}
-                          height={32}
+                        width={32}
+                        height={32}
                         className="h-8 w-8 rounded-full object-contain"
                         src={app.imageUrl}
                         alt={app.name}
@@ -129,7 +129,6 @@ const PublicTemplates = () => {
 
               {/* Hover Image */}
               <Image
-              
                 className="h-0 group-hover:h-30   object-contain rounded-lg absolute opacity-0 
                    group-hover:opacity-100 group-hover:translate-y-0
                    transition-all duration-300 ease-in-out"

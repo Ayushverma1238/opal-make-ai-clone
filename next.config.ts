@@ -4,8 +4,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: [
       "media.candulabs.com",
-      "cdn.candu.ai"
-      
+      "cdn.candu.ai",
+      "eu1.make.com"
+
     ],
   },
 };
