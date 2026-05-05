@@ -69,14 +69,17 @@ const DashboardPage = () => {
   const circumference = normalizedRadius * 2 * Math.PI;
 
   const strokeDashoffset = circumference - (progress / 100) * circumference;
-
   const creditProgress =
     activePlan?.credits && leftPlan?.creditsLeft
-      ? activePlan?.credits - leftPlan?.creditsLeft
+      ? activePlan.credits - leftPlan.creditsLeft
       : 0;
-  const creditDashoffset : number =
-    circumference - (creditProgress / 100) * circumference ;
 
+  const creditPercentage = activePlan?.credits
+    ? (creditProgress / activePlan.credits) * 100
+    : 0;
+
+  const creditDashoffset =
+    circumference - (creditPercentage / 100) * circumference;
   return (
     <div className="p-6 ">
       <h1 className="text-sm text-purple-600 font-semibold">Organization</h1>
@@ -120,7 +123,7 @@ const DashboardPage = () => {
                 fill="transparent"
                 strokeWidth={stroke}
                 strokeDasharray={`${circumference} ${circumference}`}
-                style={{strokeDashoffset: creditDashoffset }}
+                style={{ strokeDashoffset: creditDashoffset }}
                 strokeLinecap="round"
                 r={normalizedRadius}
                 cx={center}
