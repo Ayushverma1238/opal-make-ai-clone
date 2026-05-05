@@ -2,11 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "media.candulabs.com",
-      },
+    domains: [
+      "media.candulabs.com",
+      "cdn.candu.ai"
     ],
   },
 };
