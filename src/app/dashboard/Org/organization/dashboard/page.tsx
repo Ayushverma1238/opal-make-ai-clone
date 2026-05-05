@@ -77,9 +77,9 @@ const DashboardPage = () => {
   // clamp safety
   const safeUsed = Math.max(0, Math.min(usedCredits, totalCredits));
 
-  const creditRatio = totalCredits > 0 ? safeUsed / totalCredits : 0;
+  // const creditRatio = totalCredits > 0 ? safeUsed / totalCredits : 0;
 
-  const creditDashoffset = circumference * (1 - creditRatio);
+  const creditDashoffset = (totalCredits > 0 )? circumference * creditsLeft/totalCredits: circumference;
   return (
     <div className="p-6 ">
       <h1 className="text-sm text-purple-600 font-semibold">Organization</h1>
