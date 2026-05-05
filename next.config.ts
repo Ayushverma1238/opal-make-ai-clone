@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
       "media.candulabs.com",
       "cdn.candu.ai",
       "eu1.make.com"
-
     ],
   },
 };
