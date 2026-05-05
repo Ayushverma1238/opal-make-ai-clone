@@ -69,17 +69,17 @@ const DashboardPage = () => {
   const circumference = normalizedRadius * 2 * Math.PI;
 
   const strokeDashoffset = circumference - (progress / 100) * circumference;
-  const creditProgress =
-    activePlan?.credits && leftPlan?.creditsLeft
-      ? activePlan.credits - leftPlan.creditsLeft
-      : 0;
+  const totalCredits = activePlan?.credits ?? 0;
+  const creditsLeft = leftPlan?.creditsLeft ?? 0;
 
-  const creditPercentage = activePlan?.credits
-    ? (creditProgress / activePlan.credits) * 100
-    : 0;
+  const usedCredits = totalCredits - creditsLeft;
 
-  const creditDashoffset =
-    circumference - (creditPercentage / 100) * circumference;
+  // clamp safety
+  const safeUsed = Math.max(0, Math.min(usedCredits, totalCredits));
+
+  const creditRatio = totalCredits > 0 ? safeUsed / totalCredits : 0;
+
+  const creditDashoffset = circumference * (1 - creditRatio);
   return (
     <div className="p-6 ">
       <h1 className="text-sm text-purple-600 font-semibold">Organization</h1>
